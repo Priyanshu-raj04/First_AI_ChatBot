@@ -63,7 +63,7 @@ console.log("response", response);
 
   return (
     <>
-      <h1 className="heading">AI Chatbot</h1>
+      <h1 className="heading">Priyanshu's Chatbot</h1>
       <div className="chatbot_container">
         <div className="chatbot_response_container">
           {

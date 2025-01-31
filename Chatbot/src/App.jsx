@@ -71,11 +71,11 @@ console.log("response", response);
             response.map((res, index) => (
               <div key={index} className="response">
                 <p className="chatbot_prompt">
-                  <strong>user : </strong>
+                  {/* <strong>user : </strong> */}
                   {res.prompt}
                 </p>
                 <p className="chatbot_response">
-                  <strong>chatbot : </strong>
+                  {/* <strong>chatbot : </strong> */}
                   {res.response}
                 </p>
               </div>
